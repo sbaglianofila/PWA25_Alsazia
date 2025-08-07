@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Turistiche</title>
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2c3e50">
+</head>
+<body>
+    <header class="header">
+        <h1>Guide Turistiche</h1>
+        <p class="subtitle">Scopri le meraviglie delle nostre città</p>
+        <div class="city-image">
+            <img src="https://via.placeholder.com/800x300/2c3e50/ffffff?text=Guide+Turistiche" alt="Guide turistiche" />
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="guides-section">
+            <h2>Scegli la tua destinazione</h2>
+
+            <div class="guide-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/300x200/e74c3c/ffffff?text=Milano" alt="Milano" />
+                </div>
+                <div class="card-content">
+                    <h3>Milano</h3>
+                    <p>Scopri la capitale della moda e del design. Dalla maestosa Cattedrale al quartiere di Brera, una città ricca di storia e modernità.</p>
+                    <div class="card-highlights">
+                        <span class="highlight">5 luoghi principali</span>
+                        <span class="highlight">Audio guide</span>
+                        <span class="highlight">Info pratiche</span>
+                    </div>
+                    <a href="milano.html" class="guide-link">Visita Milano</a>
+                </div>
+            </div>
+
+            <div class="guide-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/300x200/3498db/ffffff?text=Roma" alt="Roma" />
+                </div>
+                <div class="card-content">
+                    <h3>Roma</h3>
+                    <p>La Città Eterna ti aspetta con i suoi monumenti millenari. Dal Colosseo ai Musei Vaticani, un viaggio nella storia dell'umanità.</p>
+                    <div class="card-highlights">
+                        <span class="highlight">8 luoghi principali</span>
+                        <span class="highlight">Audio guide</span>
+                        <span class="highlight">Mappe integrate</span>
+                    </div>
+                    <a href="roma.html" class="guide-link">Visita Roma</a>
+                </div>
+            </div>
+
+            <div class="guide-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/300x200/27ae60/ffffff?text=Firenze" alt="Firenze" />
+                </div>
+                <div class="card-content">
+                    <h3>Firenze</h3>
+                    <p>Culla del Rinascimento e patria dell'arte italiana. Dagli Uffizi al Ponte Vecchio, bellezza ad ogni angolo.</p>
+                    <div class="card-highlights">
+                        <span class="highlight">6 luoghi principali</span>
+                        <span class="highlight">Tour artistico</span>
+                        <span class="highlight">Consigli locali</span>
+                    </div>
+                    <a href="firenze.html" class="guide-link">Visita Firenze</a>
+                </div>
+            </div>
+
+            <div class="guide-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/300x200/f39c12/ffffff?text=Venezia" alt="Venezia" />
+                </div>
+                <div class="card-content">
+                    <h3>Venezia</h3>
+                    <p>La Serenissima ti conquisterà con i suoi canali e palazzi. Da Piazza San Marco al Canal Grande, magia pura sull'acqua.</p>
+                    <div class="card-highlights">
+                        <span class="highlight">4 luoghi principali</span>
+                        <span class="highlight">Percorsi acquatici</span>
+                        <span class="highlight">Tradizioni locali</span>
+                    </div>
+                    <a href="venezia.html" class="guide-link">Visita Venezia</a>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        <section class="info-section">
+            <h2>Come funzionano le nostre guide</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h4>?? Ottimizzate per mobile</h4>
+                    <p>Le guide sono progettate per essere consultate comodamente dal tuo smartphone durante la visita.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>?? Audio inclusi</h4>
+                    <p>Ogni luogo di interesse ha la sua audioguida per un'esperienza ancora più coinvolgente.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>?? Info pratiche</h4>
+                    <p>Orari, prezzi e indicazioni per raggiungere ogni attrazione, tutto sempre aggiornato.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>??? Mappe integrate</h4>
+                    <p>Collegamenti diretti a Google Maps per non perderti mai durante la tua esplorazione.</p>
+                </div>
+            </div>
+        </section>
+        -->
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 - Guide Turistiche. Le tue avventure iniziano qui.</p>
+    </footer>
+
+    <script>
+        // Registra il Service Worker per PWA
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js');
+        }
+    </script>
+</body>
+</html>
